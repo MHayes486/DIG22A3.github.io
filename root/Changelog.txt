@@ -68,3 +68,8 @@
   -Created new style sheets for tablet and mobile view
   -Modified nav for tablet and mobile views (needs refining)
   -remove council logo on tablet and smaller views
+
+13/05/2021
+  -Modified text sizing for headings and main in mobile and tablet views
+  -fixed tablet Nav
+  -modified nav for mobile, needs fixing

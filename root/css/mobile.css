@@ -17,8 +17,24 @@ font-size: 2rem;
 
 /*Mobile Display Style changes*/
 @media screen and (max-width: 600px) {
-  /*Remove nav*/
 
+  /*Remove nav*/
+  nav {
+    display: inline-block;
+  }
+
+  nav a {
+    width: 90%;
+    padding: 4px;
+    margin: 2px;
+    text-align: center;
+  }
+
+  nav li {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2rem;
+  }
 
   /*Remove Poem*/
   blockquote {
@@ -32,6 +48,23 @@ font-size: 2rem;
 
   #poemCite {
     display: none;
+  }
+
+  /*Set text size*/
+  #lightsH1 {
+    font-size: 3rem;
+  }
+
+  #TitleH1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
   }
 
 }

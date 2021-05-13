@@ -32,6 +32,7 @@ main {
   background-color: #121212;
   font-family: 'Roboto Slab', serif;
   text-shadow: 60px, 21px, 50px, #FF990D;
+  font-size: 2rem;
 }
 
 html {
@@ -53,13 +54,19 @@ h4 {
   font-weight: 300;
 }
 
+h3 {
+  font-size: 5vw;
+}
+
 h2 {
-  font-size: 8vw;
+  font-size: 7vw;
   padding-bottom: 0px;
   margin-bottom: 0px;
 }
 
-
+hr {
+  color: white;
+}
 
 .homeText {
   display: inline-block;
@@ -76,7 +83,7 @@ h2 {
 #TitleH1 {
   font-family: 'Hanalei Fill', cursive;
   /*font-size: 3.5rem;*/
-  font-size: 11vw;
+  font-size: 9vw;
   /*text-shadow: 6px, 21px, 5px, red;*/
   margin: 0px;
   padding: 3px, 3px, 3px, 0px;
@@ -98,7 +105,7 @@ h2 {
   font-family: 'Oi', cursive;
   /*font-size: 3.5rem;*/
   font-weight: 10;
-  font-size: 12vw;
+  font-size: 10vw;
   margin: 0px;
   background: linear-gradient(to bottom right, #FFC800, #FF990D,
       #FFFB0D);
