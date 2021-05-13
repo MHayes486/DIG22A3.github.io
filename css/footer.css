@@ -1,0 +1,65 @@
+/* colours
+#8119FF-Purple
+#19A7FF-Blue
+#FFC800-Yellow
+#FF990D-Orange
+#FFB854 -Pale Orange
+#FFFB0D-Birght Yellow*/
+
+/*fonts
+font-family: 'Alata', sans-serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vampiro One', cursive;*/
+
+
+
+/*Footer Styles*/
+footer {
+  background-color: #000000;
+  color: #FFC800;
+  width: 100%;
+  border: 2px inset #FF990D;
+  border-radius: 5px;
+}
+
+/*Align text and graphics using wrap*/
+.footerSection {
+  display: flex;
+  align-items: stretch;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 5px;
+  overflow: auto;
+  resize: both;
+}
+
+/*Individual Footer sections*/
+#councilLogo {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+}
+
+#poemCite {
+  width: 100%;
+  margin: 8px, 0px;
+  text-align: center;
+}
+
+#FestivalLogo {
+  width: 35%;
+  height: 50%;
+  margin: 5px;
+  padding: 2px;
+}
+
+#footerText {
+  width: 60%
+}

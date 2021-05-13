@@ -1,0 +1,55 @@
+/*Tablet Style Changes*/
+@media screen and (max-width: 950px) {
+
+  nav ul {
+    display: none;
+  }
+
+  /*Change image and fix image ratio*/
+  #Top {
+    background-image: url('../media/fullscreen/GiantSkyWheelGeelongWaterfront.jpg');
+    /*"Giant Sky Wheel, Geelong Waterfront" by shivan https://www.flickr.com/photos/18239160@N00/16017428557  is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    object-fit: contain;
+    padding: none;
+  }
+
+  #councilLogo {
+    display: none;
+  }
+
+  /*Remove parralax and adjust poem display*/
+  blockquote {
+    font-size: 1rem;
+    border: 2px dotted #8119FF;
+  }
+
+  .pImage {
+    display: none;
+  }
+
+  .poemOnly {
+    display: inline-block;
+  }
+
+  /*Change Nav*/
+  nav ul.mobileNav {
+    display: inline-block;
+  }
+
+  /*Set text size*/
+  #lightsH1 {
+    font-size: 6rem;
+  }
+
+  #TitleH1 {
+    font-size: 5rem;
+  }
+
+  h2 {
+    font-size: 3rem;
+  }
+
+
+}

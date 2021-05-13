@@ -1,0 +1,37 @@
+/*mobile size
+.rhImageMobile{
+diplay:inline-block
+}
+
+.rhImage{
+display:none;
+}
+
+.lower img{
+display:none;
+}
+
+.lower blockquote{
+font-size: 2rem;
+}*/
+
+/*Mobile Display Style changes*/
+@media screen and (max-width: 600px) {
+  /*Remove nav*/
+
+
+  /*Remove Poem*/
+  blockquote {
+    display: none;
+  }
+
+  .poemOnly {
+    display: none;
+  }
+
+
+  #poemCite {
+    display: none;
+  }
+
+}

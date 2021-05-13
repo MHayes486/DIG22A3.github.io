@@ -1,0 +1,74 @@
+/* colours
+#8119FF-Purple
+#19A7FF-Blue
+#FFC800-Yellow
+#FF990D-Orange
+#FFB854 -Pale Orange
+#FFFB0D-Birght Yellow*/
+
+/*fonts
+font-family: 'Alata', sans-serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vampiro One', cursive;*/
+
+
+/*About Page styles*/
+.aboutDetails {
+  display: inline-flex;
+  width: 100%;
+}
+
+.lhText {
+  width: 50%;
+  padding: 5px;
+}
+
+.rhImage {
+  width: 50%;
+  padding: 5px;
+  text-align: right;
+}
+
+.rhImage img {
+  max-width: 100%;
+  height: auto;
+}
+
+.lower {
+  width: 100%;
+  text-align: center;
+}
+
+strong {
+  font-weight: bold;
+  color: #FFFB0D;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+}
+
+.lower img {
+  max-width: 95%;
+  height: auto;
+  padding: 5px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.lower blockquote {
+  padding: 5px;
+  padding-top: 0px;
+  margin-top: 0px;
+  max-width: 95%;
+}
+
+
+.rhImageMobile {
+  display: none;
+}

@@ -1,0 +1,102 @@
+/* colours
+#8119FF-Purple
+#D1ABFF-Pale Purple;
+#19A7FF-Blue
+#FFC800-Yellow
+#FF990D-Orange
+#FFB854 -Pale Orange
+#FFFB0D-Birght Yellow*/
+
+/*fonts
+font-family: 'Alata', sans-serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vampiro One', cursive;*/
+
+/* Nav Styles */
+nav {
+  background-color: #000000;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+nav a {
+  display: inline-block;
+  white-space: nowrap;
+  top: 0;
+  overflow: auto;
+  text-decoration: none;
+  color: #dd990d;
+  color: #19A7FF;
+  background-image: conic-gradient(#FFC800, #FFFB0D, #FFB854, #D1ABFF, #FFFB0D, #FFFB0D, #D1ABFF, #FFB854, #FFFB0D, #FFC800);
+  border-radius: 8px;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  margin: 4px;
+  font-family: 'Finger Paint', 'Permanent Marker', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+nav img {
+  float: left;
+  height: 75px;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+nav ul {
+  position: relative;
+}
+
+nav li {
+  display: block;
+  position: sticky;
+  background: #000000;
+  border-radius: 6px;
+  padding: 4px;
+}
+
+header {
+  padding-bottom: 5px;
+}
+
+/*Mobile Sections*/
+#MobileNav {
+  display: none;
+}
+
+nav ul.mobileNav {
+  display: none;
+}
+
+nav li:hover>ul {
+  display: block;
+  text-align: left;
+}
+
+nav li:hover>ul>li {
+  display: block;
+}
+
+nav li:hover>ul>li>a {
+  text-decoration: underline;
+  font-size: 25px;
+  margin: 2px, 0px;
+  border: none;
+}
+
+nav ul.mobileNav li {
+  text-align: left;
+}

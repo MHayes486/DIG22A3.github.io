@@ -1,0 +1,186 @@
+/* colours
+#8119FF-Purple
+#19A7FF-Blue
+#FFC800-Yellow
+#FF990D-Orange
+#FFB854 -Pale Orange
+#FFFB0D-Birght Yellow*/
+
+/*fonts
+font-family: 'Alata', sans-serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vampiro One', cursive;*/
+
+
+
+/*Body Styles*/
+body {
+  background-color: #010101;
+  color: white;
+
+  /*color: #19A7FF;*/
+}
+
+main {
+  background-color: #121212;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 60px, 21px, 50px, #FF990D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.poemOnly {
+  display: none;
+  width: 100%;
+}
+
+/*Font Styles*/
+main h1,
+h2,
+h3,
+h4 {
+  color: #FFFB0D;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 300;
+}
+
+h2 {
+  font-size: 8vw;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.homeText {
+  display: inline-block;
+  margin-left: 25px;
+}
+
+#Dates {
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 0px;
+}
+
+
+#TitleH1 {
+  font-family: 'Hanalei Fill', cursive;
+  /*font-size: 3.5rem;*/
+  font-size: 11vw;
+  /*text-shadow: 6px, 21px, 5px, red;*/
+  margin: 0px;
+  padding: 3px, 3px, 3px, 0px;
+  display: inline;
+  background: linear-gradient(to bottom right, #FFC800, #FF990D,
+      #FFFB0D);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  display: inline;
+
+}
+
+
+#lightsH1 {
+  font-family: 'Oi', cursive;
+  /*font-size: 3.5rem;*/
+  font-weight: 10;
+  font-size: 12vw;
+  margin: 0px;
+  background: linear-gradient(to bottom right, #FFC800, #FF990D,
+      #FFFB0D);
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: black;
+  display: inline;
+}
+
+
+p {
+  font-size: 1rem;
+}
+
+#r2t {
+  position: sticky;
+  bottom: 10px;
+  align-items: baseline;
+  text-align: right;
+  padding-right: 15px;
+  z-index: 20;
+}
+
+
+blockquote {
+  color: #FFC800;
+  font-family: 'Finger Paint', cursive;
+  font-size: 1.5rem;
+  font-style: oblique;
+  background-color: #010101;
+  width: 85%;
+  text-align: center;
+  align-self: auto;
+}
+
+
+.poem {
+  margin-top: 5px;
+  padding-top: 5px;
+}
+
+div {
+  /*  border-style: groove;*/
+}
+
+a {
+  color: #8119FF;
+  color: #19A7FF;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/*Image Styles*/
+.pImage {
+  background-color: black;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Crowd {
+  background-image: url('../media/fullscreen/WhiteNightBallarat2.jpg');
+  /*"White Night Ballarat" by blachswan (https://www.flickr.com/photos/40883175@N06/33120852592) is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/*/
+  text-align: center;
+}
+
+#Group {
+  background-image: url('../media/fullscreen/StreetPerformanceWorldChampionshipMerrionSquare.jpg');
+  /*"Street Performance World Championship - Merrion Square" by infomatique https://www.flickr.com/photos/80824546@N00/9279721452  is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/*/
+  text-align: center;
+}
+
+#Top {
+  background-image: url('../media/fullscreen/GiantSkyWheelGeelongWaterfrontCrop.jpg');
+  /*"Giant Sky Wheel, Geelong Waterfront" by shivan https://www.flickr.com/photos/18239160@N00/16017428557  is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  padding: none;
+}
