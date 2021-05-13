@@ -1,0 +1,299 @@
+/* colours
+#8119FF-Purple
+#FF990D-Orange
+#FFFB0D-Birght Yellow
+#19A7FF-Blue
+#FFC800-Yellow*/
+
+/*fonts
+font-family: 'Alata', sans-serif;
+font-family: 'Finger Paint', cursive;
+font-family: 'Hanalei Fill', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Oi', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Slab', serif;
+font-family: 'Vampiro One', cursive;*/
+
+/* Nav Styles */
+nav {
+  background-color: #000000;
+  display: inline-block;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+  width: 100%;
+  z-index: 10;
+  text-align: center;
+}
+
+nav a {
+  display: block;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+  text-decoration: none;
+  color: #dd990d;
+  color: #19A7FF;
+  background: #000000;
+  border-radius: 8px;
+  box-shadow: 0 0 11px rgba(0, 0, 0, 0.5);
+  padding: 3px;
+  font-family: 'Finger Paint', 'Permanent Marker', sans-serif;
+  text-align: center;
+  font-weight: 500;
+}
+
+nav img {
+  float: left;
+  height: 75px;
+  padding: 5px;
+  padding-right: 25px;
+}
+
+nav ul {
+  position: relative;
+}
+
+nav li {
+  display: inline-block;
+  white-space: nowrap;
+  background-image: conic-gradient(#FFC800, #FFFB0D, #19A7FF, #FFFB0D, #FFFB0D, #8119FF, #FFFB0D, #FFC800);
+  border-radius: 6px;
+  padding: 8px;
+  margin: 6px;
+}
+
+header {
+  padding-bottom: 5px;
+}
+
+#r2t {
+  position: sticky;
+  bottom: 10px;
+  align-items: baseline;
+  text-align: right;
+  padding-right: 15px;
+  z-index: 20;
+}
+
+/*Body Styles*/
+body {
+  background-color: #010101;
+  color: white;
+
+  /*color: #19A7FF;*/
+}
+
+main {
+  background-color: #121212;
+  font-family: 'Roboto Slab', serif;
+  text-shadow: 60px, 21px, 50px, #FF990D;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
+/*Font Styles*/
+main h1,
+h2,
+h3,
+h4 {
+  color: #FFFB0D;
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 300;
+}
+
+p {
+  font-size: 1rem;
+}
+
+#TitleH1 {
+  font-family: 'Hanalei Fill', cursive;
+  font-size: 3.5rem;
+  text-shadow: 6px, 21px, 5px, red;
+}
+
+#lightsH1 {
+  font-family: 'Oi', cursive;
+  font-size: 3.5rem;
+  font-weight: 10;
+}
+
+blockquote {
+  color: #FFC800;
+  font-family: 'Finger Paint', cursive;
+  font-size: 0.8rem;
+  font-style: oblique;
+  background-color: #010101;
+  width: 85%;
+  text-align: center;
+  align-self: auto;
+}
+
+div {
+  /*  border-style: groove;*/
+}
+
+a {
+  color: #8119FF;
+  color: #19A7FF;
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+/*Enterainment styles*/
+#entertainDay {
+  background-color: #FFB854;
+  color: black;
+}
+
+#entertainDay h1 {
+  color: #121212;
+  text-shadow: 1px 1px 2px rgba(131, 75%, 0, 0.8);
+}
+
+
+
+/*Image Styles*/
+.pImage {
+  background-color: black;
+  min-height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#Crowd {
+  background-image: url('../media/fullscreen/WhiteNightBallarat2.jpg');
+  /*"White Night Ballarat" by blachswan (https://www.flickr.com/photos/40883175@N06/33120852592) is licensed with CC BY 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by/2.0/*/
+  text-align: center;
+}
+
+#Group {
+  background-image: url('../media/fullscreen/StreetPerformanceWorldChampionshipMerrionSquare.jpg');
+  /*"Street Performance World Championship - Merrion Square" by infomatique https://www.flickr.com/photos/80824546@N00/9279721452  is licensed with CC BY-SA 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-sa/2.0/*/
+  text-align: center;
+}
+
+#Top {
+  background-image: url('../media/fullscreen/GiantSkyWheelGeelongWaterfront.jpg');
+  /*"Giant Sky Wheel, Geelong Waterfront" by shivan https://www.flickr.com/photos/18239160@N00/16017428557  is licensed with CC BY-NC-ND 2.0. To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-nd/2.0/*/
+  background-size: 100%;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  height: auto;
+  padding: none;
+}
+
+/*.TextImages {
+  background-image: url('../media/fullscreen/Wheel.jpg');
+  background-size: 100%;
+  min-height: 2000px;
+}*/
+
+/*Eating page Styles*/
+.eat h4 {
+  color: #8119FF;
+}
+
+.eat ul {
+  text-decoration: none;
+}
+
+.foodinfo {
+  opacity: 0;
+  text-align: center;
+  position: absolute;
+  transition: 1s ease;
+  background-color: #FFFB0D;
+}
+
+.eat ul:hover .foodinfo {
+  opacity: 1;
+}
+
+
+/*Footer Styles*/
+footer {
+  background-color: #000000;
+  color: #FFC800;
+  width: 100%;
+  border: 2px inset #FF990D;
+  border-radius: 5px;
+  width: 100%;
+}
+
+#footerDivs {
+  display: flex;
+  float: left;
+  width: 100%;
+  border: 2px inset #FF990D;
+  border-radius: 5px;
+}
+
+
+#councilLogo {
+  width: 65%;
+  height: auto;
+  margin-left: 5px;
+  padding: 2px;
+}
+
+#FestivalLogo {
+  width: 35%;
+  height: auto;
+  margin-right: 5px;
+  padding: 2px;
+}
+
+
+/*Mobile Sections*/
+#MobileNav {
+  display: none;
+}
+
+.listing {
+  position: relative;
+  width: 50%;
+}
+
+.foodImage {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}

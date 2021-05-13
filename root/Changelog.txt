@@ -1,0 +1,70 @@
+21/04/2021
+-Began Project
+  -Created divisions for each Section
+  -Created Menu
+  -Styled fonts, tried multiple fonts for h1 and Body
+
+23/04/2021
+-Imported parralax images and geelong quotes
+-blacked out background for poem quotes (?temp or long term)
+-tested Parralax
+-placed footer information (including Geelong Council logo)
+
+ 27/04/2021
+ -Added images for food Trucks
+ -resized images to 400 width (most not full page/background images)
+ -image compression to reduce size of files accross all Images
+
+ 28/04/2021
+ -gradient applied for menu buttons
+  -TO DO: increase area of button that can be clicked
+-SVG'd the return to top button, placed above page sticky to bottom
+
+
+
+
+
+04/05/2021
+**** Feedback from A2***
+-Changed text colour to white from Blue
+-Also changed link colour to blue from Purple
+ (Does enhance readability)
+
+-Remove artists space section (maybe temporarily (will revisit at end))
+-Removed entertainment all section from mobile page, will modify each page to suit instead.
+-added image references in notes.
+-placed text from A3 document into footer.
+
+-reformatted file sequence for image files
+-add images for entertainment sections,
+-modified day activities sections background colour and text colours
+-added referencing for all Images
+  -TO DO (add alt texts to images)
+
+05/05/21
+  -Placed <p> of each food truck details and created them as hidden
+
+7/05/21
+  -started implementation and testing of firework animation, as yet not successful
+  -Split css style files into separate files to enable testing
+
+9/05/21
+  -convert section headings into vw sizing (h2)
+  -animate lights in night Entertainment
+  -aligned text and non-mobile image in about section
+  -alinged Geelong image with quote in about
+
+10/05/2021
+  -made all headings based off vw, with max set via media query, minimum also to be set.
+  -aligned heading text and made lights in colours
+  -placed eating into grid, attempted rollover/hover (did not work).
+
+11/05/2021
+  - Completed footer styling for web including both logos
+  - Placed poem in div for removal on mobile and margin settings
+  - add @media for main image change
+
+12/05/2021
+  -Created new style sheets for tablet and mobile view
+  -Modified nav for tablet and mobile views (needs refining)
+  -remove council logo on tablet and smaller views
